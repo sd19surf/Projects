@@ -259,7 +259,7 @@ public class GifSequenceWriter implements CustomTag {
       writer.close();
       output.close();
     } else {
-      response.write( "Usage: <cfx_AnimatedGIF file=[list of gif/jpg/png files] output=file.gif delay=#(in ms) loop=true|false>");
+      response.write( "Usage: cfx_AnimatedGIF file=[list of gif/jpg/png files] output=file.gif delay=#(in ms) loop=true|false");
       
     }
    }  
